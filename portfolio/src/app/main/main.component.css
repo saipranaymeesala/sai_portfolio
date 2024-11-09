@@ -1,0 +1,120 @@
+
+.section{
+    background: url('https://img.freepik.com/free-vector/elegant-round-shape-modern-background-presentation_1017-50072.jpg?ga=GA1.1.1436874713.1729502761&semt=ais_hybrid') left center no-repeat;
+    background-size: cover;
+}
+  
+  .section-container {
+   
+  }
+  
+  /* PROFILE SECTION */
+  
+  /* #profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    
+  } */
+  .profile_picture{
+    border-radius: 50%;
+  }
+  
+  .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section__text {
+    align-self: center;
+    text-align: center;
+    
+  }
+  
+  .section__text p {
+    font-weight: 600;
+  }
+  
+  .section__text__p1 {
+    text-align: center;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  #socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  /* ICONS */
+  
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  
+  /* BUTTONS */
+   
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .btn {
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(32, 29, 29);
+    padding: 15;
+  }
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    cursor: pointer;
+  }
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(224, 222, 222) 0.1rem solid;
+  
+  }
+  .btn-container {
+    gap: 1rem;
+  } 
+ 
+  /*
+ 
+  
+
+  
+  .btn-color-1,
+  .btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+  
+ 
+  
+  .btn-color-2 {
+    background: none;
+  }
+  
+  .btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+  
+  .btn-container {
+    gap: 1rem;
+  } */
+  

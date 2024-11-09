@@ -1,0 +1,29 @@
+<nav id="desktop-nav" class="navbar navbar-expand-lg navbar-dark navbar-sticky sticky-top">
+    <div class="logo">Meesala Sai Pranay</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about" class="text-dark">About</a></li>
+        <li><a href="#resume"  class="text-dark" onclick="window.open('assets/Resume_.pdf')">Resume</a></li>
+        <li><a href="#projects"  class="text-dark">Projects</a></li>
+        <li><a href="#contact"  class="text-dark">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav" class=" navbar   navbar-sticky sticky-top">
+    <div class="logo">Meesala Sai Pranay</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" (click)="toggleMenu()" #iconRef>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links" #menuRef>
+        <li><a href="#about" (click)="toggleMenu()">About</a></li>
+        <li><a href="#skills" (click)="toggleMenu()">Skills</a></li>
+        <li><a href="#resume" (click)="toggleMenu()" onclick="window.open('assets/Resume_.pdf')">Resume</a></li>
+        <li><a href="#projects" (click)="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" (click)="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
