@@ -2,26 +2,26 @@
 
 <!-- Profile and content -->
 
-<section class="container">
-   <div class="row">
-    <div class="col-md-6 align-items-center mt-5">
-        <img src="https://pbs.twimg.com/profile_images/1683842179360501760/Da8NHyOA_400x400.jpg" alt="Meesala Sai Pranay profile picture" class="rounded-circle m-5" />
+<section class="bg-dark">
+   <div class="row container">
+    <div class="col-md-5 align-items-center offset-md-1 p-4">
+        <img src="https://pbs.twimg.com/profile_images/1683842179360501760/Da8NHyOA_400x400.jpg" alt="Meesala Sai Pranay profile picture" class="rounded-circle" />
     </div>
-    <div class="col-md-6 align-items-center mt-5">
+    <div class="col-md-5 align-items-center  offset-md-1">
         <div class="mt-5">
-        <p class="text-dark text-center">Hello, I'm</p>
-        <h1 class="title">Meesala Sai Pranay</h1>
-        <p class="heading-2 text-center">Mean Stack Developer</p>
+        <p class=" text-center text-light">Hello, I'm</p>
+        <h1 class="title text-light fst-italic">Meesala Sai Pranay</h1>
+        <p class="heading-2 text-center text-light">Mean Stack Developer</p>
     </div>
     <div class="align-items-center text-center">
-    <a href="" class="btn text-bg-warning m-3 p-2" (click)="downloadResume()">Download Resume</a>
-    <a href="" class="btn text-bg-primary m-3 p-2">Contact Info</a>
+    <a href="" class="btn text-bg-success m-3 p-2 text-light rounded-5" onclick="window.open('assets/Resume_.pdf')">Download Resume</a>
+    <a href="" class="btn text-bg-primary m-3 p-2 rounded-5" routerLink="/contact">Contact Info</a>
 </div>
 <div class=" text-center">
-    <a href="https://github.com/saipranaymeesala" class="text-dark">
+    <a href="https://github.com/saipranaymeesala" class="text-light">
     <i class="fa-brands fa-github fa-3x m-3"></i>
 </a>
-<a href="https://www.linkedin.com/in/sai-pranay-meesala" class="text-dark">
+<a href="https://www.linkedin.com/in/sai-pranay-meesala" class="text-light">
     <i class="fa-brands fa-linkedin fa-3x m-3"></i>
 </a>
 </div> 
@@ -32,44 +32,63 @@
 <!-- A bit about my self -->
 <section class="py-4 overflow-hidden bg-light ">
    
-    <h1 class="text-center text-dark">A Bit about Myself</h1>
+    <h2 class="text-center text-dark text-uppercase text-decoration-underline fst-normal fw-bold">A Bit about Myself</h2>
     <div class="row">
-        <div class="col-md-6">
-       <div class="m-5">
+        <div class="col-md-5 offset-md-1">
+       <div class="mx-5">
          <h2 class="fw-bold">Education</h2>
          <ul class="mt-3">
-            <li class="mt-1"><span class="fw-bold">St. peter's Engineering College,Hyderabad,India (2020-2024)</span> <br>
-            <span class="text-dark">Bachelor of Technology in Information Technology</span></li>
-            <li class="mt-1"><span class="fw-bold">Sri Chaitanya Junior College,Hyderabad,India (2018-2020)</span> <br>
-                <span class="text-dark">Mpc</span></li>
-            <li class="mt-1"><span class="fw-bold">Sri Chandra High School,Nizamabad,India (2018)</span> <br>
-                <span class="text-dark"></span></li>
+            <li class="mt-1"><span class="fw-bold fst-italic">St. peter's Engineering College,Hyderabad,India (2020-2024)</span> <br>
+            <span class="text-dark fst-italic">Bachelor of Technology in Information Technology</span></li>
+            <li class="mt-1"><span class="fw-bold fst-italic">Sri Chaitanya Junior College,Hyderabad,India (2018-2020)</span> <br>
+                <span class="text-dark fst-italic">Mpc</span></li>
+            <li class="mt-1"><span class="fw-bold fst-italic">Sri Chandra High School,Nizamabad,India (2018)</span> <br>
+                <span class="text-dark "></span></li>
          </ul>
-         <h2 class="fw-bold">Technical Skills</h2>
-         <ul class="mt-3">
-            <li class="mt-1"><span class="fw-bold">Programming Languages:</span> <br>
-            <span class="text-dark">Javascript,Typescript.</span></li>
-            <li class="mt-1"><span class="fw-bold">Frameworks & Technologies:</span> <br>
-                <span class="text-dark">Angular,HTML,CSS,Bootstrap.
-                </span></li>
-            <li class="mt-1"><span class="fw-bold">Tools:</span> <br>
-                <span class="text-dark">Git,GitHub.
-                </span></li>
-            <li class="mt-1"><span class="fw-bold">Databases:</span> <br>
-                <span class="text-dark">MongoDb
-                    </span></li>
-            <li class="mt-1"><span class="fw-bold">Additional Sills:</span> <br>
-                <span class="text-dark">Problem-solving,Mathematical analysis,Project Management.
-                        </span></li>
-         </ul>
+        
          <h2 class="fw-bold">Languages Known</h2>
          <ul class="mt-3">
-            <li class="mt-1"><span class="fw-bold">Telugu(Native)</span> 
+            <li class="mt-1"><span class="fw-bold fst-italic">Telugu(Native)</span> 
             </li>
-            <li class="mt-1"><span class="fw-bold">Hindi(Mid level)</span></li>
-            <li class="mt-1"><span class="fw-bold">English(Proficiency)</span> </li>
+            <li class="mt-1"><span class="fw-bold fst-italic">Hindi(Mid level)</span></li>
+            <li class="mt-1"><span class="fw-bold fst-italic">English(Proficiency by Duolingo English Test)</span> </li>
          </ul>
-       </div>
+        </div>
     </div>
+         <div class="col-md-5 offset-md-1">
+            <div class="mx-5">
+            <h2 class="fw-bold">Technical Skills</h2>
+            <ul class="mt-3">
+               <li class="mt-1"><span class="fw-bold fst-italic">Programming Languages:</span> <br>
+               <span class="text-dark fst-italic">Javascript,Typescript.</span></li>
+               <li class="mt-1"><span class="fw-bold fst-italic">Frameworks & Technologies:</span> <br>
+                   <span class="text-dark fst-italic">Angular,HTML,CSS,Bootstrap.
+                   </span></li>
+               <li class="mt-1"><span class="fw-bold fst-italic">Tools:</span> <br>
+                   <span class="text-dark fst-italic">Git,GitHub.
+                   </span></li>
+               <li class="mt-1"><span class="fw-bold fst-italic">Databases:</span> <br>
+                   <span class="text-dark fst-italic">MongoDb
+                       </span></li>
+               <li class="mt-1"><span class="fw-bold fst-italic">Additional Sills:</span> <br>
+                   <span class="text-dark fst-italic">Problem-solving,Mathematical analysis,Project Management.
+                           </span></li>
+            </ul>
+         </div>
+        </div>
+       
+    
     </div>
 </section>
+
+<!-- Certifications -->
+<app-certifications></app-certifications>
+
+<!-- projects -->
+<app-projects></app-projects>
+
+
+<!-- Contact -->
+ <section class="bg-dark">
+    <p class="text-light p-5 text-center fst-italic fw-bold">Drop a Mail at <a href="mailto:meesalasaipranay4932@gmail.com"> meesalasaipranay4932agmail.com </a> </p>
+ </section>
