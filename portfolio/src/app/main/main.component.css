@@ -19,9 +19,6 @@
   .profile_picture{
     border-radius: 50%;
   }
-  .main-container{
-    background: linear-gradient(yellow,lightgreen,lightblue);
-  }
   
   .section__pic-container {
     display: flex;
@@ -37,9 +34,6 @@
     text-align: center;
     
   }
-  /* .project-container{
-    background: linear-gradient(yellow,rgb(217, 247, 86),pink);
-}  */
   
   .section__text p {
     font-weight: 600;
